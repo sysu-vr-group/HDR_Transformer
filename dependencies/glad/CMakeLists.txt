@@ -1,0 +1,14 @@
+# Miguel Chan - 2/28/2019
+cmake_minimum_required(VERSION 3.10)
+project(GLAD)
+set(CMAKE_CXX_STANDARD 14)
+
+set(GLAD_SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/src)
+set(GLAD_INCLUDE_DIR ${CMAKE_CURRENT_LIST_DIR}/include)
+
+
+FILE(GLOB GLAD_SOURCE ${GLAD_SOURCE_DIR}/*.cpp ${GLAD_SOURCE_DIR}/*.c)
+FILE(GLOB GLAD_HEADER ${GLAD_INCLUDE_DIR}/*.h ${GLAD_INCLUDE_DIR}/*.hpp)
+add_library(glad ${GLAD_SOURCE} ${GLAD_HEADER})
+target_include_directories(glad PUBLIC ${GLAD_INCLUDE_DIR})
+

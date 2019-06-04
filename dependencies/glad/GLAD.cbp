@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLAD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\glad\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;CMake Files\dependencies\imgui\;CMake Files\dependencies\GLM\;CMake Files\dependencies\GLM\cmake\;CMake Files\dependencies\GLM\glm\;CMake Files\dependencies\GLM\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/lib/libglad.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/lib/libglad.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glad\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLFW/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\imgui\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLM\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLM\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake/CMakePackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\dependencies\GLM\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\dependencies\GLM\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake/glm.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\GLM\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake/glmBuildConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLM\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/cmake/glmConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLM\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLM\glm\"/>
+		</Unit>
+		<Unit filename="/Users/mig/Desktop/junior-spring/graphics/assignments/repo/7/dependencies/GLM/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLM\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
